@@ -30,6 +30,10 @@
       let domain = window.location.protocol + "://" + window.location.hostname;
       let result = text.link(domain);
       document.getElementById("domains").innerHTML = result;
+      
+      document.getElementById("demo").innerHTML =
+"Page protocol is " + window.location.protocol;
     </script>
+    <p id="main"></p>
   </body>
 </html>
